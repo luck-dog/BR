@@ -1,0 +1,27 @@
+*{margin: 0px;padding: 0px;font: "微软雅黑";}
+.box{display: flex;justify-content:space-between;}
+
+
+.header{width: 1200px;margin: auto;height: 100px;}
+.ioc1{display: inline-block;width: 31px;height: 26px;background: url(../image/weibo.png) no-repeat;position: relative;top: 8px;}
+.ioc2{display: inline-block;width: 31px;height: 27px;background: url(../image/weixin.png) no-repeat;position: relative;top: 8px;}
+.ioc3{display: inline-block;width: 30px;height: 25px;background: url(../image/phone.png) no-repeat;position: relative;top: 7px;right: 15px;}
+.header_right{height: 100px;line-height: 30px;font-size: 20px;color: #038dd8;margin-top: 15px;}
+.header_right a{text-decoration: none;font-size:12px ;color: #666666;}
+.header_right a:hover{color: orange;}
+.header_right span{font-size:12px ;color: #666666;}
+
+
+.footer{background: url(../image/footer_02.png)no-repeat;height: 400px;background-size: 100% 100%;}
+.footer_1{height: 50px;line-height: 50px;background-color: white;opacity: 0.5;}
+.footer_1>p>a{text-decoration: none;color: #0168b7;font-size: 14px;text-align: center;}
+.footer_1>p>a:hover{color: chocolate;}
+.footer_2{width: 1200px;margin: auto;color: #FFFFFF;font-size: 12px;}
+.footer_2>ul{list-style: none;display: flex;justify-content: space-around;}
+.footer_2>ul>li{width: 250px;margin-top: 65px;}
+.footer_ioc1{display: inline-block;width: 32px;height: 32px;background: url(../image/qq1.png)no-repeat;}
+.footer_ioc1:hover{background: url(../image/qq2.png)no-repeat;}
+.footer_ioc2{display: inline-block;width: 32px;height: 32px;background: url(../image/wb1.png)no-repeat;}
+.footer_ioc2:hover{background: url(../image/wb2.png)no-repeat;}
+.footer_ioc3{display: inline-block;width: 32px;height: 32px;background: url(../image/wx1.png)no-repeat;}
+.footer_ioc3:hover{background: url(../image/wx2.png)no-repeat;}
